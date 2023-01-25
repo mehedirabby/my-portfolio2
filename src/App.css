@@ -42,6 +42,12 @@
   --mb-2-5:2.5rem;
   --mb-3:3rem;
 
+
+  --z-tooltip:10;
+  --z-fixed:100;
+  --z-modal:1000;
+
+
 }
 
 
@@ -68,7 +74,26 @@ body{
 }
 h1,h2,h3{
   color: var(--title-color);
+  font-weight: var(--font-semi-bold);
 }
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+button{
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* Reusable css Classes */
+
 .App {
   text-align: center;
 }
@@ -106,4 +131,19 @@ h1,h2,h3{
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Responsive typography */
+@media screen and (max-width:992px) {
+
+  :root{
+    --big-font-size:2.75rem;
+    --h1-font-size:1.5rem;
+    --h2-font-size:1.25rem;
+    --h3-font-size:1rem;
+    --normal-font-size:0.938rem;
+    --small-font-size:0.813rem;
+    --smaller-font-size:0.75rem;
+  }
+  
 }
