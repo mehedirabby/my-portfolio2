@@ -89,6 +89,12 @@ header{
         color: var(--title-color-dark);
 
     }
+
+    .nav-toggle{
+        font-size: 1.1rem;
+        cursor: pointer;
+        
+    }
     .nav__icon,.nav-close,.nav-toggle{
         display: block;
     }
