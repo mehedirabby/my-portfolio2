@@ -2,7 +2,8 @@ import React from 'react';
 
 const Data = () => {
     return (
-        <div className="home-data">
+        <div className='koko'>
+            <div className="home-data">
             <h1 className="home-title">Mehedi Hasan Rabby
             <svg
                   width="36"
@@ -79,6 +80,10 @@ const Data = () => {
                     fill="var(--container-color)"
                   ></path>
                 </svg></a>
+            </div>
+                <div>
+
+                </div>
         </div>
 
         

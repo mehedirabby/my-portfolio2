@@ -1,6 +1,7 @@
 import React from 'react';
 import Data from './Data';
 import './Home.css'
+import ScrollDown from './ScrollDown';
 import Social from './Social';
 
 
@@ -10,10 +11,12 @@ const Home = () => {
         <div className="home-container container grid">
             <div className="home-content grid">
         <Social></Social>
-        <div className="home-img">
-            <Data></Data>
+        <div  className="home-img">
+            
         </div>
+        <Data></Data>
             </div>
+            <ScrollDown></ScrollDown>
         </div>
        </section>
     );
