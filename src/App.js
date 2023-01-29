@@ -5,9 +5,9 @@ import Home from "./Component/Home/Home";
 function App() {
   return (
     <>
-      <Header></Header>
+      <Header />
       <main className="main">
-        <Home></Home>
+        <Home />
       </main>
     </>
   );
