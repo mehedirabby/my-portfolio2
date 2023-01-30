@@ -108,10 +108,10 @@
 /* For Break Points */
 
 /* For large Device */
-@media screen and(max-width:992px) {
+@media screen and (max-width:992px) {
     .home-content{
         grid-template-columns: 100px repeat(2,1fr);
-        column-gap: 1.14rem;
+        column-gap: 1.25rem;
     }
     .home-hand{
         width: 26px;
@@ -141,13 +141,13 @@
 }
 
 /* For medium Device */
-@media screen and(max-width:768px) {
+@media screen and (max-width:768px) {
     .home-content{
         grid-template-columns:0.5fr 3fr;
         padding-top: 3.5rem;
         
     }
-    .home-img{
+     .home-img{
         order: initial;
         justify-self: initial;
     }
@@ -161,5 +161,16 @@
     }
     .home-scroll{
         display: none;
+    } 
+}
+@media screen and (max-width:350px) {
+
+    .home-img{
+        width: 180px;
+        height: 180px;
+    }
+    .home-hand{
+        width: 22px;
+        height: 22px;
     }
 }
